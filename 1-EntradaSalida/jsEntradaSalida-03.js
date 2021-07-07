@@ -3,9 +3,10 @@ Debemos lograr tomar un dato por 'ID'
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-var nombre; 
+    var nombre; 
 
-nombre = prompt ("Ingrese nombre");
+nombre= prompt ("Ingrese nombre");
 
 document.getElementById ("txtIdNombre").value  = nombre;
-]
+
+}
